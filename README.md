@@ -1,5 +1,5 @@
 # PsycheLinkGPT
-PsycheLinkGPT: A ChatGPT derivative for mental health support. Offers personalized guidance, tips, and emotional coping mechanisms. Not a replacement for therapy or medication.
+**PsycheLinkGPT**: A ChatGPT derivative for mental health support. Offers personalized guidance, tips, and emotional coping mechanisms. Not a replacement for therapy or medication.
 **Overview**
 PsycheLinkGPT is a ChatGPT derivative designed to provide personalized support and guidance for individuals experiencing mental health challenges. It offers actionable tips, helps users develop healthy habits, and encourages self-improvement. PsycheLinkGPT aims to fill the gap in the mental health industry for individuals who may not require full therapy or medication but still need support. This is not a replacement for therapy or medication.
 
