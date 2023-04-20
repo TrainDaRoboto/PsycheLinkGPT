@@ -1,10 +1,10 @@
-# PsycheLinkGPT
-**PsycheLinkGPT**: A ChatGPT-based derivative using the OpenAI API for mental health support. Offers personalized guidance, tips, and emotional coping mechanisms. Not a replacement for therapy or medication.
+PsycheLinkGPT
+PsycheLinkGPT: A program using the ChatGPT API and the OpenAI API for mental health support. Offers personalized guidance, tips, and emotional coping mechanisms. Not a replacement for therapy or medication.
 
-**Overview**
-PsycheLinkGPT is a ChatGPT derivative designed to provide personalized support and guidance for individuals experiencing mental health challenges. It offers actionable tips, helps users develop healthy habits, and encourages self-improvement. PsycheLinkGPT aims to fill the gap in the mental health industry for individuals who may not require full therapy or medication but still need support. This is not a replacement for therapy or medication.
+Overview
+PsycheLinkGPT is a program that uses the ChatGPT API and the OpenAI API to provide personalized support and guidance for individuals experiencing mental health challenges. It offers actionable tips, helps users develop healthy habits, and encourages self-improvement. PsycheLinkGPT aims to fill the gap in the mental health industry for individuals who may not require full therapy or medication but still need support. This is not a replacement for therapy or medication.
 
-**Features**
+Features
 
 * Actionable and helpful tips
 
@@ -14,18 +14,18 @@ PsycheLinkGPT is a ChatGPT derivative designed to provide personalized support a
 
 * Ideas for diverting attention away from negative thoughts
 
-* Assistance in recognizing and redirecting rumination
+Assistance in recognizing and redirecting rumination
 
-**Usage**
-Currently users can enter their key into the Config.ini file, using their own paid OpenAI API key. Feel free aswell to re-use the prompts for ChatGPT!
-Here is the link to the webpage to get your Api-Key. You may need to set up billing but the API usage is pay by usage!
-"https://platform.openai.com/account/api-keys"
+Usage
+Currently users can enter their API key into the Config.ini file to use the program with their own paid OpenAI API key. Feel free to reuse the prompts for ChatGPT!
 
-**Data Protection and Compliance**
-We prioritize user data protection and privacy. Our security measures include encryption, firewalls, and regular vulnerability assessments. We comply our best with all  regulations and if we out of line please notify us ASAP.
+Data Protection and Compliance
+We prioritize user data protection and privacy. PsycheLinkGPT does not collect or store user data. However, please note that OpenAI may collect data through the use of their API. Our security measures include encryption, firewalls, and regular vulnerability assessments. We comply with all relevant regulations, and if we fall out of compliance, please notify us as soon as possible.
 
-**Disclaimer**
-_PsycheLinkGPT is not intended to replace traditional therapy or medication. It should be seen as a complementary tool to aid individuals in their mental health journey. We are committed to ethical development and marketing, with guidance from ethical experts to maintain the highest standards of integrity._
+Disclaimer
+PsycheLinkGPT is not intended to replace traditional therapy or medication. It should be seen as a complementary tool to aid individuals in their mental health journey. We are committed to ethical development and marketing, with guidance from ethical experts to maintain the highest standards of integrity.
 
-**Contributing**
+Contributing
 For those who would like to contribute to PsycheLinkGPT, please read our CONTRIBUTING.md for guidelines on submitting issues and pull requests.
+
+I hope this updated text helps clarify that PsycheLinkGPT is using the ChatGPT API for its implementation.
