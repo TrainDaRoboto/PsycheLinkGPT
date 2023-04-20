@@ -17,7 +17,9 @@ PsycheLinkGPT is a ChatGPT derivative designed to provide personalized support a
 * Assistance in recognizing and redirecting rumination
 
 **Usage**
-PsycheLinkGPT can be accessed through a subscription-based model. Users will pay a monthly fee for 24/7 access to the chatbot on multiple platforms via web apps.
+Currently users can enter their key into the Config.ini file, using their own paid OpenAI API key. Feel free aswell to re-use the prompts for ChatGPT!
+Here is the link to the webpage to get your Api-Key. You may need to set up billing but the API usage is pay by usage!
+"https://platform.openai.com/account/api-keys"
 
 **Data Protection and Compliance**
 We prioritize user data protection and privacy. Our security measures include encryption, firewalls, and regular vulnerability assessments. We comply our best with all  regulations and if we out of line please notify us ASAP.
