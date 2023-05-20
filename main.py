@@ -2,7 +2,7 @@ import requests
 import openai
 import os
 import gradio as gr
-
+from gradio import components
 
 
 CONFIG_FILE = "config.ini"
@@ -65,22 +65,23 @@ def chatbot(input, prompt):
     if not api_key:
         return "No API key found. Please provide an API key."
     return generate_text(api_key, prompt, input)
-
-prompt_input = gr.inputs.Dropdown(choices=[
+prompt_input = components.Dropdown(choices=[
     "I want you to act as my friend and assistant when getting through a hard time. This may mean giving me helpful tips, assurances, and redirecting from poor thought cycles. You are to calmly analyze the situations as I give them and also try and give open, respectful but alternative point of views too. You are to assist the user in building up their empathy so that they can build themselves up.",
     "I want you to act as a limited therapist (understanding your own shortcomings) to assist individuals through major life issues and decisions. These concepts are necessary for the individual to heal and live their life happily."
 ], label="Select a Prompt")
-input_text = gr.inputs.Textbox(lines=7, label="Chat with AI")
-output_text = gr.outputs.Textbox(label="Reply")
+input_text = components.Textbox(lines=7, label="Chat with AI")
+output_text = components.Textbox(label="Reply")
+
+css_path= 'custom.css'
 
 iface = gr.Interface(
     fn=chatbot,
     inputs=[input_text, prompt_input],
     outputs=output_text,
     allow_flagging="never",
-    title="PycheLinkGPT",
-    description="Talk it out with a non-judgemental bot!",
-    theme="compact"
+    title="PsycheLinkGPT",
+    description="Vent Without Worries!",
+    css=css_path
 )
 
 iface.launch(share=True)
